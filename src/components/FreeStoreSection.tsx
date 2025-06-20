@@ -78,7 +78,7 @@ const FreeStoreSection = () => {
             <Card className="shadow-2xl border-0">
               <CardContent className="p-0">
                 <img 
-                  src="/lovable-uploads/eea3bc76-270b-4ada-9434-8f9c5a543a36.png" 
+                  src="/images/eea3bc76-270b-4ada-9434-8f9c5a543a36.png" 
                   alt="One-click Store Creation - Create your store at shopzap.io" 
                   className="w-full rounded-lg"
                   loading="lazy"
@@ -89,7 +89,7 @@ const FreeStoreSection = () => {
             {/* Add the custom themes image as a floating element */}
             <div className="absolute -bottom-4 -right-4 w-48 h-32 shadow-xl rounded-lg overflow-hidden border-4 border-white">
               <img 
-                src="/lovable-uploads/6fd764aa-da8a-4dc7-a57f-6cd82895839c.png" 
+                src="/images/6fd764aa-da8a-4dc7-a57f-6cd82895839c.png" 
                 alt="Custom Themes & Design" 
                 className="w-full h-full object-cover"
                 loading="lazy"

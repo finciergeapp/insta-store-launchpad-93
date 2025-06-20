@@ -92,7 +92,7 @@ const AutomationSection = () => {
             <Card className="shadow-2xl border-0">
               <CardContent className="p-0">
                 <img 
-                  src="/lovable-uploads/5c9f1137-5c86-4e66-9a22-8ba443be991a.png" 
+                  src="/images/5c9f1137-5c86-4e66-9a22-8ba443be991a.png" 
                   alt="Instagram DM Automation - Send automated messages and manage customers effortlessly" 
                   className="w-full rounded-lg"
                 />

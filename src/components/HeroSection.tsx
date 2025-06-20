@@ -65,7 +65,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src="/lovable-uploads/511c666f-11fe-405d-9095-4dcf6b053bf1.png" 
+                src="/images/511c666f-11fe-405d-9095-4dcf6b053bf1.png" 
                 alt="ShopZap Dashboard - Create Your Instagram Store in 60 Seconds" 
                 className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl"
                 loading="lazy"

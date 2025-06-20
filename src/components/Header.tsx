@@ -25,7 +25,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/42b2eee5-ae37-4311-8959-4c507afb81ad.png" 
+              src="/images/42b2eee5-ae37-4311-8959-4c507afb81ad.png" 
               alt="ShopZap" 
               className="w-8 h-8"
             />

@@ -75,7 +75,7 @@ const Automation = () => {
             
             <div className="mb-12">
               <img 
-                src="/lovable-uploads/88d6d8e2-db5e-452d-ae84-0696cb6de86c.png" 
+                src="/images/88d6d8e2-db5e-452d-ae84-0696cb6de86c.png" 
                 alt="Instagram DM Automation Demo" 
                 className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
               />

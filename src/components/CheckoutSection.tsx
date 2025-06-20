@@ -12,7 +12,7 @@ const CheckoutSection = () => {
             <Card className="shadow-2xl border-0">
               <CardContent className="p-0">
                 <img 
-                  src="/lovable-uploads/a64cbaff-ce52-4872-bb11-407d54be1435.png" 
+                  src="/images/a64cbaff-ce52-4872-bb11-407d54be1435.png" 
                   alt="Smart Checkout Form - Beautiful checkout with quantity, address, and payment mode selection" 
                   className="w-full rounded-lg"
                 />

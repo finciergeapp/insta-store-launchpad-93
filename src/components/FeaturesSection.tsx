@@ -10,37 +10,37 @@ const FeaturesSection = () => {
       icon: <Zap className="h-8 w-8 text-blue-600" />,
       title: "One-click Store Creation",
       description: "Get your custom store at shopzap.io/yourstore instantly. No coding, no hassle.",
-      image: "/lovable-uploads/7f45b93f-1fc0-4681-a7cb-110b07cc857f.png"
+      image: "/images/7f45b93f-1fc0-4681-a7cb-110b07cc857f.png"
     },
     {
       icon: <MessageSquare className="h-8 w-8 text-teal-600" />,
       title: "Instagram DM Automation",
       description: "Automatically reply to 'Price?' messages with product links and details.",
-      image: "/lovable-uploads/88d6d8e2-db5e-452d-ae84-0696cb6de86c.png"
+      image: "/images/88d6d8e2-db5e-452d-ae84-0696cb6de86c.png"
     },
     {
       icon: <ShoppingCart className="h-8 w-8 text-purple-600" />,
       title: "Smart Checkout Form",
       description: "Beautiful checkout with quantity, address, and payment mode selection.",
-      image: "/lovable-uploads/566da87a-9e15-424f-9153-3a63a8d0aae8.png"
+      image: "/images/566da87a-9e15-424f-9153-3a63a8d0aae8.png"
     },
     {
       icon: <BarChart3 className="h-8 w-8 text-green-600" />,
       title: "Analytics Dashboard",
       description: "Track views, orders, and revenue with detailed insights.",
-      image: "/lovable-uploads/566da87a-9e15-424f-9153-3a63a8d0aae8.png"
+      image: "/images/566da87a-9e15-424f-9153-3a63a8d0aae8.png"
     },
     {
       icon: <Palette className="h-8 w-8 text-orange-600" />,
       title: "Custom Themes & Design",
       description: "Beautiful themes, custom fonts, and colors that match your brand.",
-      image: "/lovable-uploads/7f45b93f-1fc0-4681-a7cb-110b07cc857f.png"
+      image: "/images/7f45b93f-1fc0-4681-a7cb-110b07cc857f.png"
     },
     {
       icon: <IndianRupee className="h-8 w-8 text-red-600" />,
       title: "₹99/month - Everything Included",
       description: "Unlimited products, automation, analytics - all in one affordable price.",
-      image: "/lovable-uploads/566da87a-9e15-424f-9153-3a63a8d0aae8.png"
+      image: "/images/566da87a-9e15-424f-9153-3a63a8d0aae8.png"
     }
   ];
 

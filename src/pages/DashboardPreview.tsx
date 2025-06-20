@@ -63,7 +63,7 @@ const DashboardPreview = () => {
 
           <div className="mb-8">
             <img 
-              src="/lovable-uploads/566da87a-9e15-424f-9153-3a63a8d0aae8.png" 
+              src="/images/566da87a-9e15-424f-9153-3a63a8d0aae8.png" 
               alt="ShopZap Dashboard" 
               className="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl"
             />
@@ -171,7 +171,7 @@ const DashboardPreview = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img 
-                  src="/lovable-uploads/7f45b93f-1fc0-4681-a7cb-110b07cc857f.png" 
+                  src="/images/7f45b93f-1fc0-4681-a7cb-110b07cc857f.png" 
                   alt="Instagram Automation Dashboard" 
                   className="w-full rounded-2xl shadow-xl"
                 />
