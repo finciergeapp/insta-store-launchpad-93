@@ -63,13 +63,14 @@ const FreeStoreSection = () => {
             </div>
 
             <div className="mt-8">
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg px-8 py-4"
-                onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                Start Your Store – ₹99
-              </Button>
+              <a href="https://tally.so/r/wkXvxe" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  size="lg" 
+                  className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg px-8 py-4"
+                >
+                  Start Your Store – ₹99
+                </Button>
+              </a>
             </div>
           </div>
 

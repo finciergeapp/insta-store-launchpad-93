@@ -1,5 +1,4 @@
 
-import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
@@ -24,7 +23,7 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Link to="/free-store">
+              <a href="https://tally.so/r/wkXvxe" target="_blank" rel="noopener noreferrer">
                 <Button 
                   size="lg" 
                   className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg px-8 py-4 w-full sm:w-auto"
@@ -32,9 +31,9 @@ const HeroSection = () => {
                   Start Your Store – ₹99
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-              </Link>
+              </a>
               
-              <Link to="/dashboard-preview">
+              <a href="/dashboard-preview">
                 <Button 
                   variant="outline" 
                   size="lg" 
@@ -42,7 +41,7 @@ const HeroSection = () => {
                 >
                   View Demo Store
                 </Button>
-              </Link>
+              </a>
             </div>
 
             <div className="flex items-center justify-center lg:justify-start space-x-6 text-sm text-gray-500">

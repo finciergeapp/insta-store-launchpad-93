@@ -61,12 +61,14 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <Button 
-                size="lg" 
-                className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg py-4"
-              >
-                Start Your Store – ₹99
-              </Button>
+              <a href="https://tally.so/r/wkXvxe" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  size="lg" 
+                  className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg py-4"
+                >
+                  Start Your Store – ₹99
+                </Button>
+              </a>
 
               <p className="text-sm text-center text-gray-500">
                 14-day free trial • No setup fees
@@ -104,12 +106,14 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <Button 
-                size="lg" 
-                className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-lg py-4"
-              >
-                Request Automation Setup – ₹499/month
-              </Button>
+              <a href="https://tally.so/r/wkXvxe" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  size="lg" 
+                  className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-lg py-4"
+                >
+                  Request Automation Setup – ₹499/month
+                </Button>
+              </a>
 
               <p className="text-sm text-center text-gray-500">
                 Personal setup call included • Cancel anytime
@@ -122,9 +126,11 @@ const PricingSection = () => {
           <p className="text-gray-600 mb-4">
             Need a custom solution? We can help with bulk orders, enterprise features, and more.
           </p>
-          <Button variant="outline" size="lg">
-            Contact Sales
-          </Button>
+          <a href="/feature-waitlist">
+            <Button variant="outline" size="lg">
+              Contact Sales
+            </Button>
+          </a>
         </div>
       </div>
     </section>

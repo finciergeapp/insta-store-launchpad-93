@@ -4,7 +4,6 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Check, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const Pricing = () => {
   const features = [
@@ -92,7 +91,7 @@ const Pricing = () => {
                   </p>
                 </div>
 
-                <Link to="/free-store">
+                <a href="https://tally.so/r/wkXvxe" target="_blank" rel="noopener noreferrer">
                   <Button 
                     size="lg" 
                     className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg py-4"
@@ -100,7 +99,7 @@ const Pricing = () => {
                     Start Free Trial
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
-                </Link>
+                </a>
 
                 <p className="text-center text-sm text-gray-500">
                   Then ₹99/month. Cancel anytime.
@@ -221,9 +220,11 @@ const Pricing = () => {
               <p className="text-gray-600 mb-6">
                 Still have questions? We're here to help!
               </p>
-              <Button variant="outline" size="lg">
-                Contact Support
-              </Button>
+              <a href="/feature-waitlist">
+                <Button variant="outline" size="lg">
+                  Contact Support
+                </Button>
+              </a>
             </div>
           </div>
         </div>

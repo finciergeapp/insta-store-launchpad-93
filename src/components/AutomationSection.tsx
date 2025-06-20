@@ -77,12 +77,14 @@ const AutomationSection = () => {
             </div>
 
             <div className="mt-8">
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-lg px-8 py-4"
-              >
-                Request Automation Setup – ₹499/month
-              </Button>
+              <a href="https://tally.so/r/wkXvxe" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  size="lg" 
+                  className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-lg px-8 py-4"
+                >
+                  Request Automation Setup – ₹499/month
+                </Button>
+              </a>
             </div>
           </div>
 

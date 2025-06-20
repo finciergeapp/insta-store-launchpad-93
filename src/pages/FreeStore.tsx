@@ -27,12 +27,12 @@ const FreeStore = () => {
 
     setIsLoading(true);
     
-    // Simulate store creation
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    // Redirect to Tally form
+    window.open('https://tally.so/r/wkXvxe', '_blank');
     
     toast({
-      title: "Store created successfully! 🎉",
-      description: `Your store is now live at shopzap.io/${storeName.toLowerCase().replace(/\s+/g, '-')}`,
+      title: "Redirecting to ShopZap signup! 🎉",
+      description: "You'll be redirected to complete your store setup.",
     });
 
     setIsLoading(false);
@@ -113,7 +113,7 @@ const FreeStore = () => {
                       disabled={isLoading}
                       className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg py-4"
                     >
-                      {isLoading ? 'Creating Your Store...' : 'Create My Free Store'}
+                      {isLoading ? 'Redirecting...' : 'Create My Free Store'}
                       <ArrowRight className="ml-2 h-5 w-5" />
                     </Button>
                   </form>
