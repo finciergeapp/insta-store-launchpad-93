@@ -9,10 +9,10 @@ const FreeStoreSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Get Your Free Store in 60 Seconds
+            One-click Store Creation
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            No technical skills needed. Just add your products and start selling.
+            Get your custom store at shopzap.io/yourstore instantly.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const FreeStoreSection = () => {
                     Custom Branding
                   </h3>
                   <p className="text-gray-600">
-                    Choose from beautiful themes, add your logo, and customize colors to match your brand.
+                    Beautiful themes, custom fonts, and colors that match your brand.
                   </p>
                 </div>
               </div>
@@ -77,12 +77,21 @@ const FreeStoreSection = () => {
             <Card className="shadow-2xl border-0">
               <CardContent className="p-0">
                 <img 
-                  src="/lovable-uploads/7f45b93f-1fc0-4681-a7cb-110b07cc857f.png" 
-                  alt="ShopZap Store Builder Interface" 
+                  src="/lovable-uploads/eea3bc76-270b-4ada-9434-8f9c5a543a36.png" 
+                  alt="One-click Store Creation - Create your store at shopzap.io" 
                   className="w-full rounded-lg"
                 />
               </CardContent>
             </Card>
+            
+            {/* Add the custom themes image as a floating element */}
+            <div className="absolute -bottom-4 -right-4 w-48 h-32 shadow-xl rounded-lg overflow-hidden border-4 border-white">
+              <img 
+                src="/lovable-uploads/6fd764aa-da8a-4dc7-a57f-6cd82895839c.png" 
+                alt="Custom Themes & Design" 
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>

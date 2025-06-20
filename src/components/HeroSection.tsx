@@ -12,15 +12,15 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Launch Your Online Store in{' '}
+              Launch Your Instagram Store in{' '}
               <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
                 60 Seconds
               </span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-              Create a beautiful store. Automate Instagram DMs. Track orders and revenue — 
-              all from one dashboard. Perfect for saree, jewelry, and handmade product sellers.
+              Build a beautiful store, share product links, and automate your DMs. 
+              Only ₹99. No coding needed.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -29,7 +29,7 @@ const HeroSection = () => {
                   size="lg" 
                   className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg px-8 py-4 w-full sm:w-auto"
                 >
-                  Start Your Free Store
+                  Start Your Store – ₹99
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
@@ -60,8 +60,8 @@ const HeroSection = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src="/lovable-uploads/566da87a-9e15-424f-9153-3a63a8d0aae8.png" 
-                alt="ShopZap Dashboard Preview" 
+                src="/lovable-uploads/511c666f-11fe-405d-9095-4dcf6b053bf1.png" 
+                alt="Launch Your Instagram Store in 60 Seconds - ShopZap Dashboard" 
                 className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl"
               />
             </div>

@@ -12,8 +12,8 @@ const CheckoutSection = () => {
             <Card className="shadow-2xl border-0">
               <CardContent className="p-0">
                 <img 
-                  src="/lovable-uploads/566da87a-9e15-424f-9153-3a63a8d0aae8.png" 
-                  alt="ShopZap Smart Checkout Form" 
+                  src="/lovable-uploads/a64cbaff-ce52-4872-bb11-407d54be1435.png" 
+                  alt="Smart Checkout Form - Beautiful checkout with quantity, address, and payment mode selection" 
                   className="w-full rounded-lg"
                 />
               </CardContent>
@@ -22,10 +22,10 @@ const CheckoutSection = () => {
 
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Smart Checkout That Converts
+              Smart Checkout Form
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Beautiful, mobile-optimized checkout forms that make it easy for customers to complete their purchase.
+              Beautiful checkout with quantity, address, and payment mode selection.
             </p>
 
             <div className="space-y-6">
@@ -66,7 +66,7 @@ const CheckoutSection = () => {
                     Payment Options
                   </h3>
                   <p className="text-gray-600">
-                    UPI, Cash on Delivery, and other payment methods
+                    Credit Card, UPI, and Cash on Delivery options
                   </p>
                 </div>
               </div>

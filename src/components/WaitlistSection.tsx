@@ -23,11 +23,17 @@ const WaitlistSection = () => {
             </CardHeader>
             
             <CardContent>
-              <div className="w-full h-96 bg-gray-100 rounded-lg flex items-center justify-center">
-                <p className="text-gray-500">
-                  Waitlist form iframe will be embedded here
-                </p>
-              </div>
+              <iframe
+                data-tally-src="https://tally.so/r/wkXvxe"
+                loading="lazy"
+                width="100%"
+                height="500"
+                frameBorder="0"
+                marginHeight={0}
+                marginWidth={0}
+                title="ShopZap Early Access Waitlist"
+                className="rounded-lg"
+              />
 
               <div className="text-center text-sm text-gray-500 mt-6">
                 <p>

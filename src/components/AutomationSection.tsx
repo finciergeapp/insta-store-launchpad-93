@@ -12,7 +12,7 @@ const AutomationSection = () => {
             Instagram DM Automation
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Never miss a customer inquiry again. Automatically respond to DMs with product links and pricing.
+            Send automated messages on Instagram and manage customers effortlessly.
           </p>
         </div>
 
@@ -90,8 +90,8 @@ const AutomationSection = () => {
             <Card className="shadow-2xl border-0">
               <CardContent className="p-0">
                 <img 
-                  src="/lovable-uploads/88d6d8e2-db5e-452d-ae84-0696cb6de86c.png" 
-                  alt="Instagram DM Automation Demo" 
+                  src="/lovable-uploads/5c9f1137-5c86-4e66-9a22-8ba443be991a.png" 
+                  alt="Instagram DM Automation - Send automated messages and manage customers effortlessly" 
                   className="w-full rounded-lg"
                 />
               </CardContent>
