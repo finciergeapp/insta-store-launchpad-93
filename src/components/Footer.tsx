@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom';
+import { Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -53,6 +54,10 @@ const Footer = () => {
               </a>
               <a href="https://whatsapp.com" className="block hover:text-white transition-colors">
                 WhatsApp Help
+              </a>
+              <a href="https://www.instagram.com/shopzap.io?utm_source=qr&igsh=bGRnN3UyNXFqZ2hw" className="flex items-center hover:text-white transition-colors">
+                <Instagram className="mr-2 h-4 w-4" />
+                Instagram
               </a>
             </div>
           </div>

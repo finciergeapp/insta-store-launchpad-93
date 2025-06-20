@@ -8,7 +8,7 @@ const HeroSection = () => {
   };
 
   const handleViewDemo = () => {
-    window.location.href = '/dashboard-preview';
+    window.open('https://tally.so/r/wkXvxe', '_blank', 'noopener,noreferrer');
   };
 
   return (
