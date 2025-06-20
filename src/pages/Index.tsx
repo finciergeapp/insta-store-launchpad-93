@@ -6,7 +6,6 @@ import FreeStoreSection from '@/components/FreeStoreSection';
 import CheckoutSection from '@/components/CheckoutSection';
 import AutomationSection from '@/components/AutomationSection';
 import PricingSection from '@/components/PricingSection';
-import WaitlistSection from '@/components/WaitlistSection';
 import FAQSection from '@/components/FAQSection';
 
 const Index = () => {
@@ -19,7 +18,6 @@ const Index = () => {
         <CheckoutSection />
         <AutomationSection />
         <PricingSection />
-        <WaitlistSection />
         <FAQSection />
       </main>
       <Footer />
