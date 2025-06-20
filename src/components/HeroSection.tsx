@@ -19,9 +19,9 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Launch Your Instagram Store in{' '}
+              Create Your Instagram Store with{' '}
               <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
-                60 Seconds
+                ShopZap
               </span>
             </h1>
             
@@ -66,8 +66,9 @@ const HeroSection = () => {
             <div className="relative z-10">
               <img 
                 src="/lovable-uploads/511c666f-11fe-405d-9095-4dcf6b053bf1.png" 
-                alt="Launch Your Instagram Store in 60 Seconds - ShopZap Dashboard" 
+                alt="ShopZap Dashboard - Create Your Instagram Store in 60 Seconds" 
                 className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl"
+                loading="lazy"
               />
             </div>
             

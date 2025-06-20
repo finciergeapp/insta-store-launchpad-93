@@ -81,6 +81,7 @@ const FreeStoreSection = () => {
                   src="/lovable-uploads/eea3bc76-270b-4ada-9434-8f9c5a543a36.png" 
                   alt="One-click Store Creation - Create your store at shopzap.io" 
                   className="w-full rounded-lg"
+                  loading="lazy"
                 />
               </CardContent>
             </Card>
@@ -91,6 +92,7 @@ const FreeStoreSection = () => {
                 src="/lovable-uploads/6fd764aa-da8a-4dc7-a57f-6cd82895839c.png" 
                 alt="Custom Themes & Design" 
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
           </div>
