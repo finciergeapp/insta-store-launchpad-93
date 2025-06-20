@@ -3,6 +3,14 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
+  const handleStartStore = () => {
+    window.open('https://tally.so/r/wkXvxe', '_blank', 'noopener,noreferrer');
+  };
+
+  const handleViewDemo = () => {
+    window.location.href = '/dashboard-preview';
+  };
+
   return (
     <section className="relative bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20 overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]" />
@@ -23,25 +31,23 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <a href="https://tally.so/r/wkXvxe" target="_blank" rel="noopener noreferrer">
-                <Button 
-                  size="lg" 
-                  className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg px-8 py-4 w-full sm:w-auto"
-                >
-                  Start Your Store – ₹99
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-              </a>
+              <Button 
+                onClick={handleStartStore}
+                size="lg" 
+                className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg px-8 py-4 w-full sm:w-auto"
+              >
+                Start Your Store – ₹99
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
               
-              <a href="/dashboard-preview">
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="text-lg px-8 py-4 border-2 border-blue-200 hover:border-blue-300 w-full sm:w-auto"
-                >
-                  View Demo Store
-                </Button>
-              </a>
+              <Button 
+                onClick={handleViewDemo}
+                variant="outline" 
+                size="lg" 
+                className="text-lg px-8 py-4 border-2 border-blue-200 hover:border-blue-300 w-full sm:w-auto"
+              >
+                View Demo Store
+              </Button>
             </div>
 
             <div className="flex items-center justify-center lg:justify-start space-x-6 text-sm text-gray-500">

@@ -9,7 +9,6 @@ import FreeStore from "./pages/FreeStore";
 import Automation from "./pages/Automation";
 import Pricing from "./pages/Pricing";
 import FAQ from "./pages/FAQ";
-import Login from "./pages/Login";
 import DashboardPreview from "./pages/DashboardPreview";
 import FeatureWaitlist from "./pages/FeatureWaitlist";
 import NotFound from "./pages/NotFound";
@@ -28,7 +27,6 @@ const App = () => (
           <Route path="/automation" element={<Automation />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="/login" element={<Login />} />
           <Route path="/dashboard-preview" element={<DashboardPreview />} />
           <Route path="/feature-waitlist" element={<FeatureWaitlist />} />
           <Route path="*" element={<NotFound />} />

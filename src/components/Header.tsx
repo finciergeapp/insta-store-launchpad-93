@@ -15,6 +15,10 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const handleStartStore = () => {
+    window.open('https://tally.so/r/wkXvxe', '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <header className="bg-white/95 backdrop-blur-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
@@ -46,17 +50,13 @@ const Header = () => {
             </button>
           </nav>
 
-          <div className="hidden md:flex items-center space-x-4">
-            <Link to="/login">
-              <Button variant="ghost" className="text-gray-700">
-                Login
-              </Button>
-            </Link>
-            <button onClick={() => scrollToSection('pricing')}>
-              <Button className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700">
-                Start Your Store – ₹99
-              </Button>
-            </button>
+          <div className="hidden md:flex items-center">
+            <Button 
+              onClick={handleStartStore}
+              className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700"
+            >
+              Start Your Store – ₹99
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -84,14 +84,12 @@ const Header = () => {
               <button onClick={() => scrollToSection('faq')} className="text-left text-gray-700 hover:text-blue-600 transition-colors">
                 FAQ
               </button>
-              <Link to="/login" className="text-left text-gray-700 hover:text-blue-600 transition-colors">
-                Login
-              </Link>
-              <button onClick={() => scrollToSection('pricing')}>
-                <Button className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700">
-                  Start Your Store – ₹99
-                </Button>
-              </button>
+              <Button 
+                onClick={handleStartStore}
+                className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700"
+              >
+                Start Your Store – ₹99
+              </Button>
             </div>
           </nav>
         )}
