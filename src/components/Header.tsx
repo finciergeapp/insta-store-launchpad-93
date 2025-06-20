@@ -7,6 +7,14 @@ import { Button } from '@/components/ui/button';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="bg-white/95 backdrop-blur-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
@@ -24,18 +32,18 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Home
-            </Link>
-            <Link to="/automation" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <button onClick={() => scrollToSection('free-store')} className="text-gray-700 hover:text-blue-600 transition-colors">
+              Free Store
+            </button>
+            <button onClick={() => scrollToSection('automation')} className="text-gray-700 hover:text-blue-600 transition-colors">
               Automation
-            </Link>
-            <Link to="/pricing" className="text-gray-700 hover:text-blue-600 transition-colors">
+            </button>
+            <button onClick={() => scrollToSection('pricing')} className="text-gray-700 hover:text-blue-600 transition-colors">
               Pricing
-            </Link>
-            <Link to="/faq" className="text-gray-700 hover:text-blue-600 transition-colors">
+            </button>
+            <button onClick={() => scrollToSection('faq')} className="text-gray-700 hover:text-blue-600 transition-colors">
               FAQ
-            </Link>
+            </button>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
@@ -44,11 +52,11 @@ const Header = () => {
                 Login
               </Button>
             </Link>
-            <Link to="/free-store">
+            <button onClick={() => scrollToSection('pricing')}>
               <Button className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700">
-                Start Free Store
+                Start Your Store – ₹99
               </Button>
-            </Link>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -64,26 +72,26 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-gray-100 pt-4">
             <div className="flex flex-col space-y-4">
-              <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors">
-                Home
-              </Link>
-              <Link to="/automation" className="text-gray-700 hover:text-blue-600 transition-colors">
+              <button onClick={() => scrollToSection('free-store')} className="text-left text-gray-700 hover:text-blue-600 transition-colors">
+                Free Store
+              </button>
+              <button onClick={() => scrollToSection('automation')} className="text-left text-gray-700 hover:text-blue-600 transition-colors">
                 Automation
-              </Link>
-              <Link to="/pricing" className="text-gray-700 hover:text-blue-600 transition-colors">
+              </button>
+              <button onClick={() => scrollToSection('pricing')} className="text-left text-gray-700 hover:text-blue-600 transition-colors">
                 Pricing
-              </Link>
-              <Link to="/faq" className="text-gray-700 hover:text-blue-600 transition-colors">
+              </button>
+              <button onClick={() => scrollToSection('faq')} className="text-left text-gray-700 hover:text-blue-600 transition-colors">
                 FAQ
-              </Link>
-              <Link to="/login" className="text-gray-700 hover:text-blue-600 transition-colors">
+              </button>
+              <Link to="/login" className="text-left text-gray-700 hover:text-blue-600 transition-colors">
                 Login
               </Link>
-              <Link to="/free-store">
+              <button onClick={() => scrollToSection('pricing')}>
                 <Button className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700">
-                  Start Free Store
+                  Start Your Store – ₹99
                 </Button>
-              </Link>
+              </button>
             </div>
           </nav>
         )}
