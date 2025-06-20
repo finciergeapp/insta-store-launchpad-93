@@ -1,0 +1,79 @@
+
+import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
+
+const HeroSection = () => {
+  return (
+    <section className="relative bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20 overflow-hidden">
+      <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]" />
+      
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="text-center lg:text-left">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+              Launch Your Online Store in{' '}
+              <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
+                60 Seconds
+              </span>
+            </h1>
+            
+            <p className="text-xl text-gray-600 mb-8 max-w-2xl">
+              Create a beautiful store. Automate Instagram DMs. Track orders and revenue — 
+              all from one dashboard. Perfect for saree, jewelry, and handmade product sellers.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 mb-8">
+              <Link to="/free-store">
+                <Button 
+                  size="lg" 
+                  className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-lg px-8 py-4 w-full sm:w-auto"
+                >
+                  Start Your Free Store
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              
+              <Link to="/dashboard-preview">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="text-lg px-8 py-4 border-2 border-blue-200 hover:border-blue-300 w-full sm:w-auto"
+                >
+                  View Demo Store
+                </Button>
+              </Link>
+            </div>
+
+            <div className="flex items-center justify-center lg:justify-start space-x-6 text-sm text-gray-500">
+              <div className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                No technical knowledge needed
+              </div>
+              <div className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Free 14-day trial
+              </div>
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="relative z-10">
+              <img 
+                src="/lovable-uploads/566da87a-9e15-424f-9153-3a63a8d0aae8.png" 
+                alt="ShopZap Dashboard Preview" 
+                className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl"
+              />
+            </div>
+            
+            {/* Floating elements */}
+            <div className="absolute -top-4 -right-4 w-72 h-72 bg-gradient-to-br from-blue-400/20 to-teal-400/20 rounded-full blur-3xl" />
+            <div className="absolute -bottom-8 -left-8 w-64 h-64 bg-gradient-to-br from-teal-400/20 to-blue-400/20 rounded-full blur-3xl" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
