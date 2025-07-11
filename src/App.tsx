@@ -11,6 +11,10 @@ import Pricing from "./pages/Pricing";
 import FAQ from "./pages/FAQ";
 import DashboardPreview from "./pages/DashboardPreview";
 import FeatureWaitlist from "./pages/FeatureWaitlist";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +33,10 @@ const App = () => (
           <Route path="/faq" element={<FAQ />} />
           <Route path="/dashboard-preview" element={<DashboardPreview />} />
           <Route path="/feature-waitlist" element={<FeatureWaitlist />} />
+          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/refund-policy" element={<RefundPolicy />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

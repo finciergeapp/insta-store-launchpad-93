@@ -49,16 +49,31 @@ const Footer = () => {
               <Link to="/faq" className="block hover:text-white transition-colors">
                 FAQ
               </Link>
+              <Link to="/contact" className="block hover:text-white transition-colors">
+                Contact Us
+              </Link>
               <a href="mailto:support@shopzap.io" className="block hover:text-white transition-colors">
-                Contact Support
-              </a>
-              <a href="https://whatsapp.com" className="block hover:text-white transition-colors">
-                WhatsApp Help
+                Email Support
               </a>
               <a href="https://www.instagram.com/shopzap.io?utm_source=qr&igsh=bGRnN3UyNXFqZ2hw" className="flex items-center hover:text-white transition-colors">
                 <Instagram className="mr-2 h-4 w-4" />
                 Instagram
               </a>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="font-semibold mb-4">Legal</h4>
+            <div className="space-y-2 text-gray-400">
+              <Link to="/terms-and-conditions" className="block hover:text-white transition-colors">
+                Terms & Conditions
+              </Link>
+              <Link to="/privacy-policy" className="block hover:text-white transition-colors">
+                Privacy Policy
+              </Link>
+              <Link to="/refund-policy" className="block hover:text-white transition-colors">
+                Refund Policy
+              </Link>
             </div>
           </div>
         </div>
